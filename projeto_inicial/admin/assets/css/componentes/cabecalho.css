@@ -1,0 +1,26 @@
+
+.cabecalho {
+    background-color: var(--cor-contraste-claro);
+    border-radius: 0 0 10px 10px;
+    box-shadow: var(--sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    margin-bottom: 2rem;
+}
+
+
+.cabecalho__logo {
+    width: 6.75rem;
+}
+
+.cabecalho__lista-navegacao {
+    display: flex;
+}
+
+.cabecalho__link {
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+    padding: 16px;
+}
